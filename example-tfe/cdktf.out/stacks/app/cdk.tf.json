@@ -1,0 +1,47 @@
+{
+  "//": {
+    "metadata": {
+      "backend": "local",
+      "stackName": "app",
+      "version": "0.12.1"
+    },
+    "outputs": {
+    }
+  },
+  "provider": {
+    "tfe": [
+      {
+        "hostname": "localhost",
+        "ssl_skip_verify": true,
+        "token": "nBt7CesTPyvdYw.atlasv1.QJjmalSbJSxk0B4YmltKrL2Li0AH2mrLlrZWfVZ5rKdHBumI4y3aXpBgWT2Qy4JENzM"
+      }
+    ]
+  },
+  "resource": {
+    "tfe_organization": {
+      "aloha": {
+        "//": {
+          "metadata": {
+            "path": "app/aloha",
+            "uniqueId": "aloha"
+          }
+        },
+        "email": "admin@aloha.com",
+        "name": "my-org-aloha"
+      }
+    }
+  },
+  "terraform": {
+    "backend": {
+      "local": {
+        "path": "/Users/mark.west/go/cdktf-demo/example-tfe/terraform.app.tfstate"
+      }
+    },
+    "required_providers": {
+      "tfe": {
+        "source": "hashicorp/tfe",
+        "version": "0.36.0"
+      }
+    }
+  }
+}

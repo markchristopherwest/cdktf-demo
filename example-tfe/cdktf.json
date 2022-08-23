@@ -1,0 +1,14 @@
+{
+  "language": "typescript",
+  "app": "npx ts-node main.ts",
+  "projectId": "74f18b76-206b-4189-ac72-44b32068b0d9",
+  "sendCrashReports": "true",
+  "terraformProviders": [
+    "tfe@~> 0.33"
+  ],
+  "terraformModules": [],
+  "context": {
+    "excludeStackIdFromLogicalIds": "true",
+    "allowSepCharsInLogicalIds": "true"
+  }
+}

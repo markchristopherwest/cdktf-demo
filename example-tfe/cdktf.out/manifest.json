@@ -1,0 +1,13 @@
+{
+  "version": "0.12.1",
+  "stacks": {
+    "app": {
+      "name": "app",
+      "constructPath": "app",
+      "workingDirectory": "stacks/app",
+      "synthesizedStackPath": "stacks/app/cdk.tf.json",
+      "annotations": [],
+      "dependencies": []
+    }
+  }
+}
